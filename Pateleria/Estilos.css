@@ -1,0 +1,170 @@
+body{
+    margin:0px;
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-style: italic;
+    font-size: 40px;
+}
+.logo-mini{
+    width: 90px;
+}
+header{
+    background-color: rgb(255, 239, 190);
+}
+.presentacion{
+    display: grid;
+    grid-template-columns: 100px 500px;
+    justify-content:center;
+    font-size: 15px;
+    align-items: center;
+}
+.nav-cont{
+    width:auto;
+    height:min-content;
+    background-color:#a4e9d7;
+    padding: 20px;
+    text-align: right;
+    font-size:18px;
+}
+a{
+    color:black;
+    text-transform:capitalize;
+    text-decoration:none;
+    display:inline-block;
+    margin: 0 8px 0 8px;
+}
+a:hover{
+    background-color: rgb(32, 143, 157);
+    color: white;
+    cursor:grab;
+    padding: 10px ;
+    border-radius: 2px;
+}
+footer{
+     background-color:#a4e9d7;
+     display: grid;
+     justify-content:center;
+     align-items: center;
+     grid-template-columns: 200px 300px 300px;
+}
+.contenido{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.contenedor-info{
+    display: grid;
+    grid-template-rows: 80px 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 400px;
+}
+.Demostracion-img{
+    width: 350px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.direcciones {
+    font-style: oblique;
+    background-color: rgb(255, 239, 190);
+    justify-content:center;
+    align-items: center;
+    margin: 30px 5px 10px 5px;
+    border: solid rgb(8, 58, 54) 2px;
+    border-radius: 6px;
+}
+.contenedor-pasteles{
+    display: grid;
+  gap: 20px 20px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  justify-content: center;
+}
+.pasteles-info{
+    width: 200px;
+    height: 300px;
+    border-style:double;
+    border-radius: 4px;
+    display: grid;
+    grid-template-rows: 40px 220px 30px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    text-align: center;
+}
+.presentacion-pasteles{
+    display:grid;
+    grid-template-rows: 100px auto;
+    justify-items: center;
+}
+.info-cake{
+    display: grid;
+    grid-template-rows: 110px 90px;
+    justify-items: left ;
+}
+.pasteles{
+    width: 180px;
+    height: 125px;
+}
+.armas-pastel{
+    display: grid;
+    grid-template-rows: 100px auto;
+    justify-content:center;
+    font-style: italic;
+}
+.formulario, #form1{
+    display: grid;
+    width: 400px;
+    justify-content:center;
+    text-align:left;
+    gap: 20px 20px;
+  grid-template-columns: auto auto auto;
+  
+}
+.Data-P{
+    
+    width: 300px;
+    height: auto;
+    justify-items:center;
+    align-items: center;
+}
+.Precios-cont{
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.unit-precios{
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    margin-top: 10px;
+    border: dashed black 3px;
+}
+.contenedor-pedidos{
+    display: grid;
+    grid-template-rows: 100px auto;
+    justify-content:center;
+}
+.seccion-alma{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content:space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+.secciones-almacen-info{
+    background-color:  rgb(255, 239, 190);
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 3px;
+    margin-bottom: 250px;
+}
+
